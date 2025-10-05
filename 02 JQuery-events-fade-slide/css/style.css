@@ -1,3 +1,7 @@
+body{
+    padding: 250px;
+}
+
 .box1{
     width: 100px;
     height: 100px;
@@ -15,4 +19,24 @@
     height: 100px;
     background: blue;
     margin-top: 20px;
+}
+
+.btn{
+    width: 500px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+}
+.lorem{
+    width: 500px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    /* display: none; */
 }

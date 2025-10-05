@@ -114,3 +114,21 @@ $(document).ready(function(){
         $('.box3').fadeTo('slow', 0.6);
     });
 });
+
+// $(document).ready(function(){
+//     $('.btn').click(function(){     // click here div slide down lorem div
+//         $('.lorem').slideDown(2000);
+//     });
+// })
+
+// $(document).ready(function(){
+//     $('.btn').click(function(){     // click here div slide up lorem div
+//         $('.lorem').slideUp(2000);
+//     });
+// })
+
+$(document).ready(function(){
+    $('.btn').click(function(){     // click here div slide toggle lorem div
+        $('.lorem').slideToggle();
+    });
+})
