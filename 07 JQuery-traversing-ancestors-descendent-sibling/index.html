@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Basics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="ancestor">
+        <!-- Ancestor: div -->
+        <div>div
+            <!-- Descendant: ul (child of div) -->
+            <ul>ul
+                <!-- Descendant: li (child of ul, grandchild of div) -->
+                <li>li
+                    <!-- Children: span, span (children of li, descendants of ul and div) -->
+                    <span>span</span>
+                    <span>span</span>
+                    <!-- Siblings: the two span elements are siblings to each other -->
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 
+    Structure:
+    div (ancestor)
+    └── ul (descendant, child of div)
+        └── li (descendant, child of ul)
+            ├── span (child of li, sibling to next span)
+            └── span (child of li, sibling to previous span)
+    -->
+
+    <hr>
+    <div class="udoy">
+        <p>Paragraph
+            <span>Span</span>
+        </p>
+    </div>
+    <hr>
+
+    <div class="ud">
+        <div>div
+            <p>p</p>
+            <span>span</span>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <p>p</p>
+            <a href="#">a</a>
+            <h4>h4</h4>
+            <h5>h5</h5>
+        </div>
+    </div>
+
+
+
+    <!-- $(selector).action() -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>

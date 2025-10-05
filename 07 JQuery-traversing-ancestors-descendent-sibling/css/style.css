@@ -1,0 +1,23 @@
+.ancestor *{
+    display: block;
+    border: 2px solid #999;
+    color: #999;
+    padding: 5px;
+    margin: 15px;
+}
+
+.udoy *{
+    border: 2px solid #333;
+    padding: 5px;
+    margin: 15px;
+    color: #333;
+    display: block;
+}
+
+.ud *{
+    border: 2px solid #333;
+    padding: 5px;
+    margin: 15px;
+    color: #333;
+    display: block;
+}
