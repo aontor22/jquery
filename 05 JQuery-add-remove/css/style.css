@@ -1,0 +1,11 @@
+img{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.udoy{
+    border: 2px solid #222;
+    background: cyan;
+    padding: 20px;
+}
